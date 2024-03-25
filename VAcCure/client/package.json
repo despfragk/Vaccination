@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "chart.js": "^3.3.2",
+    "chartjs": "^0.3.24",
+    "classnames": "^2.3.1",
+    "jwt-decode": "^3.1.2",
+    "node": "^16.1.0",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-table": "^7.7.0",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "update": "^0.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

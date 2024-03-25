@@ -1,0 +1,71 @@
+#logo{
+  padding: 100px 10;
+  box-align: left;
+}
+
+.navbar {
+  background-color: #D9F2F8;
+  position: sticky;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  z-index: 10000;
+ }
+
+#test {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#test1 {
+  float: left;
+  display: none;
+}
+
+#test2 {
+  float: left;
+  display: none;
+}
+#test2 {
+  float: left;
+  display: none;
+}
+
+#right{
+    float: right;
+    padding: 5px 8px;
+    align-items: center;
+}
+
+#right1{
+  float: right;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+#right2{
+  float: right;
+  padding: 6px 5px;
+  align-items: center;
+}
+
+#reg{
+  border-radius: 3px;
+  letter-spacing: 1.5px;
+  float: right;
+  padding: 0px 5px;
+  align-items: center;
+}
+
+#login{
+  border-radius: 3px;
+  letter-spacing: 1.5px;
+  float: right;
+  padding: 0px 5px;
+  align-items: center;
+}

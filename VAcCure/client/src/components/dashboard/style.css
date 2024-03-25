@@ -1,0 +1,124 @@
+#editbutton.button, #editbuttoncancel.button, #editbuttonchange.button {
+  background: #fff;
+  padding: 10px 15px;
+  color: #34495e;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius:  5px;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 75);
+  margin-top: 25px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+#imghospital{
+  position: absolute;
+  width: 200;
+  height: 200px;
+  left: 57px;
+  top: 80px;
+}
+#htext{
+  position: absolute;
+  width: 240px;
+  height: 25px;
+  left: 10rem;
+  top: 390px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 132% */
+  
+  color: #000000;
+}
+#ptext{
+  position: absolute;
+  width: 400px;
+  height: 25px;
+  left: 10rem;
+  top: 460px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+  /* or 206% */
+
+  color: #000000;
+}
+
+
+#editbutton.button:hover,  #editbuttoncancel.button:hover, #editbuttonchange.button:hover {
+  background: #34495e;
+  color: #fff;
+}
+
+
+.popup{
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 220%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10001;
+}
+.popup2{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 170%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10001;
+  }
+.popup-content{
+  height: 950px;
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#editim  {
+  height: 58px;
+  width: 116px;
+}
+
+#editinput {
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  height: 15px;
+  padding:  8px;
+  border: 1px solid grey;
+}
+
+.searchByFullName{
+  position: relative;
+  display: none;
+}
+
+.searchByAMKA{
+  position: relative;
+  display: none;
+}
+
+.searchByDate{
+  position: relative;
+  display: none;
+}
+
+.qwerty{
+  text-align: center;
+}
