@@ -5,7 +5,7 @@ A platform was built that would help hospitals manage the vaccination program:
 - Participated in Soft Skills sessions and Web Development workshops.
 - Worked with scrum framework 
 
-# VAcCure
+# VAcCure: How to run this project
 
 cd VAcCure
 
